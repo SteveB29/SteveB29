@@ -1,7 +1,7 @@
 :root {
-    --tan: #CEB992;
-    --light-tan: #EFE8DC;
-    --deep-red: #471323;
+    --contrast-color: #CEB992;
+    --background-color: #EFE8DC;
+    --primary-color: #471323;
 }
 
 * {
@@ -12,7 +12,7 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: var(--light-tan);
+    background-color: var(--background-color);
 }
 
 
@@ -20,7 +20,7 @@ body {
 
 header {
     padding: 20px 0;
-    background-color: var(--deep-red);
+    background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -31,13 +31,13 @@ header h1 {
     margin: 0;
     padding: 0 10px 0 50px;
     font-size: 36px;
-    color: var(--deep-red);
-    background-color: var(--tan);
+    color: var(--primary-color);
+    background-color: var(--contrast-color);
 }
 
 header a {
     text-decoration: none;
-    color: var(--tan);
+    color: var(--contrast-color);
 }
 
 header nav {
@@ -68,16 +68,6 @@ footer {
     flex-wrap: wrap;
 }
 
-footer h2 {
-    font-weight: bold;
-    color: var(--deep-red);
-    font-size: 42px;
-    text-align: right;
-    border-right: 4px solid var(--deep-red);
-    padding: 0 5px 0 25px;
-    width: 15%;
-}
-
 footer address {
     margin: auto;
     width: 85%;
@@ -85,7 +75,7 @@ footer address {
 
 footer a {
     text-decoration: none;
-    color: var(--deep-red);
+    color: var(--primary-color);
 }
 
 footer address ul {
@@ -97,7 +87,21 @@ footer address ul {
 }
 
 footer address ul li a {
-    padding-bottom: 5px;
+    padding-bottom: 3px;
     font-size: 20px;
-    border-bottom: 3px solid var(--deep-red);
+    border-bottom: 3px solid var(--primary-color);
+}
+
+/* Footer style ends */
+
+/* class styling */
+
+.section-title {
+    font-weight: bold;
+    color: var(--primary-color);
+    font-size: 42px;
+    text-align: right;
+    border-right: 4px solid var(--primary-color);
+    padding: 0 5px 0 25px;
+    width: 15%;
 }
