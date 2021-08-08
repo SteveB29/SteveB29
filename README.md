@@ -1,5 +1,5 @@
 # Steve Bendrick's coding portfolio
- - Currently enrlled in Uconn's 6 month coding bootcamp.
+ - Currently enrolled in Uconn's 6 month coding bootcamp.
  - Building a repository that contains my personal protfolio
 
  ## Portfolio Website contents
