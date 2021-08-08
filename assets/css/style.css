@@ -1,0 +1,58 @@
+:root {
+    --tan: #CEB992;
+    --deep-red: #471323;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Header and nav bar style starts */
+
+header {
+    padding: 20px 0;
+    background-color: var(--deep-red);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    padding: 0 10px 0 50px;
+    font-size: 36px;
+    color: var(--deep-red);
+    background-color: var(--tan);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--tan);
+}
+
+header nav {
+    margin: 7px 15px 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 24px;
+}
+
+/* Header and nav bar style ends */
