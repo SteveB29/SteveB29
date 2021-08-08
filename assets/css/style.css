@@ -94,14 +94,55 @@ footer address ul li a {
 
 /* Footer style ends */
 
+/* hero styling start */
+
+.hero {
+    height: 200px;
+    width: 100%;
+    background-image: url(../images/hero-background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 50px 25px 0;
+}
+
+.hero p {
+    background-color: var(--contrast-color);
+    color: var(--primary-color);
+    height: 45px;
+    font-size: 36px;
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+/* Hero styling end */
+
+/* Content styling start*/
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-me p {
+    margin: 15px auto 0 auto;
+    width: 75%;
+}
+
+/* Content styling end */
+
 /* class styling */
 
 .section-title {
     font-weight: bold;
     color: var(--primary-color);
-    font-size: 42px;
+    font-size: 32px;
     text-align: right;
     border-right: 4px solid var(--primary-color);
-    padding: 0 5px 0 25px;
+    padding-right: 5px;
     width: 15%;
+    margin-top: 15px;
 }
