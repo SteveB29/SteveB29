@@ -132,6 +132,79 @@ footer address ul li a {
     width: 75%;
 }
 
+.work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.applications {
+    height: auto;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.primary-application {
+    display: block;
+    height: 500px;
+    width: 80%;
+    margin: 0 auto;
+    opacity: .75;
+    background-image: url(../images/run-buddy-screenshot.jpg);
+    border: 4px solid var(--primary-color);
+}
+
+.primary-application:hover {
+    opacity: 1;
+}
+
+.secondary-application {
+    width: 100%;
+    height: 250px;
+    display: inline-block;
+    text-align: center;
+    opacity: .75;
+    margin: 25px;
+    border: 4px solid var(--primary-color);
+}
+
+.secondary-application:hover {
+    opacity: 1;
+}
+
+.float-left {
+    float: left;
+    width: 38%;
+    margin-left: 10%;
+    margin-right: 2%;
+}
+
+.float-right {
+    float: right;
+    width: 38%;
+    margin-right: 10%;
+    margin-left: 2%;
+}
+
+.img1 {
+    background-image: url(../images/horiseon-refactor-screenshot.jpg);
+    background-size: cover;
+}
+
+.img2 {
+    background-image: url(../images/javascript-illustration.png);
+    background-size: cover;
+}
+
+.img3 {
+    background-image: url(../images/WebAPI-illustration.png);
+    background-size: cover;
+}
+
+.img4 {
+    background-image: url(../images/NodeJS-illustration.png);
+    background-size: cover;
+}
+
 /* Content styling end */
 
 /* class styling */
@@ -143,6 +216,6 @@ footer address ul li a {
     text-align: right;
     border-right: 4px solid var(--primary-color);
     padding-right: 5px;
-    width: 15%;
+    width: 250px;
     margin-top: 15px;
 }
