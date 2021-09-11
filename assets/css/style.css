@@ -151,6 +151,10 @@ footer address ul li a {
     opacity: .75;
     background-image: url(../images/run-buddy-screenshot.jpg);
     border: 4px solid var(--primary-color);
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    color: black;
 }
 
 .primary-application:hover {
@@ -160,15 +164,28 @@ footer address ul li a {
 .secondary-application {
     width: 100%;
     height: 250px;
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    align-items: flex-end;
     opacity: .75;
     margin: 25px;
     border: 4px solid var(--primary-color);
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
 }
 
 .secondary-application:hover {
     opacity: 1;
+}
+
+.app-tag {
+    background-color: var(--contrast-color);
+    font-size: 12px;
+    text-align: left;
+    border: 2px solid var(--primary-color);
+    border-left: 0;
+    padding: 2px 5px;
+    margin-bottom: 5%;
 }
 
 .float-left {
