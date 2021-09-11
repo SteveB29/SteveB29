@@ -149,8 +149,9 @@ footer address ul li a {
     width: 80%;
     margin: 0 auto;
     opacity: .75;
-    background-image: url(../images/run-buddy-screenshot.jpg);
+    background-image: url(../images/primary-application.jpg);
     border: 4px solid var(--primary-color);
+    border-radius: 5px;
     display: flex;
     align-items: flex-end;
     text-decoration: none;
@@ -208,17 +209,17 @@ footer address ul li a {
 }
 
 .img2 {
-    background-image: url(../images/javascript-illustration.png);
+    background-image: url(../images/run-buddy-screenshot.jpg);
     background-size: cover;
 }
 
 .img3 {
-    background-image: url(../images/WebAPI-illustration.png);
+    background-image: url(../images/weather-dashboard.png);
     background-size: cover;
 }
 
 .img4 {
-    background-image: url(../images/NodeJS-illustration.png);
+    background-image: url(../images/day-schedueler.png);
     background-size: cover;
 }
 
