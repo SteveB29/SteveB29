@@ -163,7 +163,6 @@ footer address ul li a {
 }
 
 .secondary-application {
-    width: 100%;
     height: 250px;
     display: flex;
     align-items: flex-end;
@@ -236,4 +235,35 @@ footer address ul li a {
     padding-right: 5px;
     width: 250px;
     margin-top: 15px;
+}
+
+@media screen and (max-width: 1244px) {
+    .work {
+        display: flex;
+        flex-flow: wrap column;
+        align-items: center;
+    }
+
+    .primary-application {
+        height: 250px;
+        background-size: cover;
+    }
+    
+    .secondary-block {
+        display: flex;
+        flex-flow: wrap column;
+    }
+
+    .float-left, .float-right {
+        float: none;
+        width: 80%;
+        margin: 5px auto;
+    }
+
+    .section-title {
+        border-right: none;
+        border-bottom: 4px solid var(--primary-color);
+        text-align: center;
+        width: 80%;
+    }
 }
