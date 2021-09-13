@@ -15,4 +15,5 @@
  - Application tiles link to deployed web pages
 
  ### Website
- [Web Portfolio](https://steveb29.github.io/SteveB29/)
+ - [Deployed Portfolio](https://steveb29.github.io/SteveB29/)
+ - [Portfolio Repository](https://github.com/SteveB29/SteveB29)
