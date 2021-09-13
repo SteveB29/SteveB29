@@ -17,3 +17,6 @@
  ### Website
  - [Deployed Portfolio](https://steveb29.github.io/SteveB29/)
  - [Portfolio Repository](https://github.com/SteveB29/SteveB29)
+
+ ### Screenshot
+ ![Deployed application](./assets/images/application-screenshot.png)
